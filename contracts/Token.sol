@@ -10,7 +10,9 @@ import "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol";
 import "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol";
 
 /*
-18 zeros 9%buy/sell tax. 6% to wallet address and 3%to LP
+18 decimals
+9%buy tax: 6% to wallet address and 3%to LP
+12% sell tax: 9% dev 3% LP
 */
 
 contract Token is Ownable, IERC20 {
